@@ -65,9 +65,10 @@ body {
     width: 100%;
 }
 
-.banner-content{
+.banner-content {
     padding-top: 100px;
 }
+
 .banner-content h1 {
     max-width: 596px;
     margin: 0 auto;
@@ -90,10 +91,41 @@ body {
     font-weight: 400;
     line-height: 26px;
 }
-.banner-container{
-    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png) ;
+
+.banner-container {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     border-radius: 16px;
 }
+
+.banner-form-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-form-content input {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.banner-form-content .bg {
+    background-color: #FFF;
+    position: relative;
+    right: 20px;
+}
+
+.banner-form-content button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 /* 
 .form-container {
     max-width: 800px;
@@ -127,4 +159,9 @@ body {
     .nav-items {
         gap: 10px;
     }
+    .banner-content{
+        padding: 0;
+        text-align: center;
+    }
+
 }
