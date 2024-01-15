@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900;1000&display=swap');
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Mulish';
+    background-color: #FFF;
 }
 
 /* share style */
@@ -13,7 +16,7 @@ body {
 .nav-section {
     max-width: 1170px;
     margin: 0 auto;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 100%;
     display: flex;
 }
@@ -52,3 +55,21 @@ body {
     font-weight: 400;
 }
 /* nav style end */
+
+/* style for small devices(Phone) */
+
+@media screen and (max-width: 576px) {
+    .nav-section,
+    .nav-items
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-name{
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-items{
+        gap: 10px;
+    }
+}
