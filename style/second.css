@@ -61,7 +61,7 @@ body {
     max-width: 1170px;
     height: 500px;
     margin: 0 auto;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 100%;
 }
 
@@ -130,7 +130,7 @@ body {
 .tour-container {
     max-width: 1170px;
     margin: 0 auto;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     padding-top: 100px;
 }
@@ -168,7 +168,7 @@ body {
     padding-top: 100px;
     max-width: 478px;
     margin: 0 auto;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     color: #131318;
     font-size: 40px;
     font-weight: 800;
@@ -177,7 +177,7 @@ body {
 .destination-content p {
     max-width: 643px;
     margin: 0 auto;
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-size: 16px;
@@ -292,7 +292,7 @@ body {
 .choose-us {
     max-width: 1170px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .why-choose h3 {
@@ -323,13 +323,13 @@ body {
 .Handpicked {
     width: 573px;
     height: 284px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .service {
     width: 573px;
     height: 284px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .Handpicked h3 {
@@ -350,7 +350,7 @@ body {
     width: 573px;
     height: 284px;
     margin: 24px auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .price-guide h3 {
@@ -379,7 +379,7 @@ body {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .Discount p {
@@ -390,7 +390,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 /* deals and discount photos style */
@@ -409,7 +409,7 @@ body {
     border-radius: 16px;
     position: relative;
     left: 535px;
-    border: 2px solid #FFF;
+    /* border: 2px solid #FFF; */
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
 }
@@ -517,7 +517,8 @@ body {
     padding-top: 48px;
     padding-bottom: 100px;
 }
-.last-btm button{
+
+.last-btm button {
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
@@ -527,8 +528,129 @@ body {
     border: 0;
     padding: 16px;
 }
-/* image section done */
 
+/* image section done */
+/* perfect place style */
+
+.perfect-place {
+    max-width: 1170px;
+    margin: 0 auto;
+    /* border: 2px solid salmon; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.place-content {
+    width: 610px;
+    height: 424px;
+    margin-top: 0;
+    /* border: 2px solid blue; */
+    display: grid;
+    gap: 0;
+}
+
+.place-content h2 {
+    width: 448px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.place-content p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.place-content button {
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+.place-image {
+    background-image: url(../Images/Group\ 40089.png);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 610px;
+    height: 424px;
+    /* border: 2px solid blue; */
+}
+
+.place-image h1 {
+    width: 276px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+/* form section */
+.form-section {
+    max-width: 1170px;
+    margin: 100px auto;
+    /* border: 2px solid slateblue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-content {
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.form-content h4 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+    left: 24px;
+}
+
+.form-content p {
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    left: 24px;
+}
+
+.form-content button {
+    border: 0;
+    margin-top: 30px;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 393px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    position: relative;
+    left: 24px;
+}
+
+.form-image {
+    width: 672px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url(../Images/Rectangle\ 8\ \(1\).png), lightgray 50% / cover no-repeat;
+}
 
 /* style for small devices(Phone) */
 
@@ -536,7 +658,9 @@ body {
 
     .nav-section,
     .nav-items,
-    .tour-container {
+    .tour-container,
+    .image-first-row,
+    .image-second-row {
         flex-direction: column;
         width: 100%;
     }
@@ -562,6 +686,38 @@ body {
         width: 335px;
         height: 342px;
         text-align: center;
+    }
+
+    .tour-content {
+        margin-left: 20px;
+    }
+
+    .tour-container {
+        padding-top: 0;
+    }
+
+    .destination-content h3 {
+        padding-top: 30px;
+    }
+
+    .image-first-row {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .image-second-row #srilanka {
+        margin-left: 100px;
+    }
+
+    .image-second-row #America {
+        margin-left: 50px;
+
+    }
+
+    .image-second-row #Kashmir {
+        margin-left: 140px;
+
     }
 
 }
