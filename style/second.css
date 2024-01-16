@@ -346,7 +346,7 @@ body {
 }
 
 .price-guide {
-    
+
     width: 573px;
     height: 284px;
     margin: 24px auto;
@@ -365,6 +365,170 @@ body {
     font-weight: 400;
     line-height: 26px;
 }
+
+/* discount style */
+.Discount {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.Discount h1 {
+    width: 351px;
+    margin: 100px auto 24px;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    border: 2px solid black;
+}
+
+.Discount p {
+    width: 643px;
+    margin: 0 auto 48px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    border: 2px solid black;
+}
+
+/* deals and discount photos style */
+.price-guide-deals1 {
+    max-width: 1170px;
+    height: 500px;
+    margin: 0 auto 24px;
+    background-image: url(../Images/deals/Rectangle\ 12.png);
+    display: grid;
+    align-items: center;
+}
+
+.price-guide-deals1 .location1 {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    position: relative;
+    left: 535px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.location1 nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.price-guide-deals2 {
+    max-width: 1170px;
+    height: 500px;
+    margin: 0 auto 24px;
+    background-image: url(../Images/deals/Rectangle\ 12\ \(1\).png);
+    display: grid;
+    align-items: center;
+}
+
+.price-guide-deals2 .location2 {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    position: relative;
+    left: 56px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.location2 nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.price-guide-deals3 {
+    max-width: 1170px;
+    height: 500px;
+    margin: 0 auto 24px;
+    background-image: url(../Images/deals/Rectangle\ 12\ \(2\).png);
+    display: grid;
+    align-items: center;
+}
+
+.price-guide-deals3 .location3 {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    position: relative;
+    left: 535px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.location3 nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.deals-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+    left: 60px;
+}
+
+.deals-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    width: 452px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    left: 60px;
+}
+
+.price-tags {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    position: relative;
+    left: 60px;
+}
+
+.booknow {
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    position: relative;
+    left: 60px;
+}
+
+.last-btm {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 100px;
+}
+.last-btm button{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0;
+    padding: 16px;
+}
+/* image section done */
+
 
 /* style for small devices(Phone) */
 
