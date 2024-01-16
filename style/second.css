@@ -692,7 +692,11 @@ footer .footer-image img {
     .nav-items,
     .tour-container,
     .image-first-row,
-    .image-second-row {
+    .image-second-row,
+    .image-third-row,
+    .Handpicked-service,
+    .perfect-place,
+    .form-section {
         flex-direction: column;
         width: 100%;
     }
@@ -750,6 +754,25 @@ footer .footer-image img {
     .image-second-row #Kashmir {
         margin-left: 140px;
 
+    }
+    .image-third-row{
+        margin-left: 50px;
+    }
+    .Handpicked-service{
+        padding-top: 20px;
+        margin-left: 25px;
+    }
+    .price-guide{
+        margin-left: 25px;
+    }
+    .price-guide-deals1 .location1{
+        position: static;
+    }
+    .price-guide-deals2 .location2{
+        position: static;
+    }
+    .price-guide-deals3 .location3{
+        position: static;
     }
 
 }
