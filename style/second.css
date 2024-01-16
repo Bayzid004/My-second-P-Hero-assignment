@@ -134,12 +134,15 @@ body {
     display: flex;
     padding-top: 100px;
 }
-.tour-content{
+
+.tour-content {
     padding-right: 25px;
 }
-.tour-content-image{
+
+.tour-content-image {
     padding-left: 25px;
 }
+
 .tour-content h3 {
     color: #131318;
     font-size: 40px;
@@ -152,11 +155,215 @@ body {
     font-weight: 400;
     line-height: 26px;
 }
-.tour-content button{
+
+.tour-content button {
     border-radius: 8px;
     background-color: #FF5400;
     padding: 14px 35px;
     border: 0;
+}
+
+/* choose destination style */
+.destination-content h3 {
+    padding-top: 100px;
+    max-width: 478px;
+    margin: 0 auto;
+    border: 2px solid blue;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination-content p {
+    max-width: 643px;
+    margin: 0 auto;
+    border: 2px solid aqua;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* destination images */
+.image-first-row {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-first-row h4 {
+    width: 573px;
+    height: 300px;
+    color: #FFF;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.image-first-row #Maldives {
+    background-image: url(../Images/Rectangle\ 5.png);
+}
+
+.image-first-row #Indonesia {
+    background-image: url(../Images/Rectangle\ 8.png);
+}
+
+.image-second-row {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.image-second-row #srilanka {
+    width: 374px;
+    height: 286px;
+    color: #FFF;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 800;
+    background-image: url(../Images/Rectangle\ 6.png);
+}
+
+.image-second-row #America {
+    width: 474px;
+    height: 286px;
+    color: #FFF;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 800;
+    background-image: url(../Images/Rectangle\ 7.png);
+}
+
+.image-second-row #Kashmir {
+    width: 274px;
+    height: 286px;
+    color: #FFF;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 800;
+    background-image: url(../Images/Rectangle\ 9.png);
+}
+
+.image-third-row {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-third-row #Bangladesh {
+    width: 473px;
+    height: 300px;
+    color: #FFF;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 800;
+    background-image: url(../Images/Rectangle\ 11.png);
+}
+
+.image-third-row #Bandarban {
+    width: 673px;
+    height: 300px;
+    color: #FFF;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 800;
+    background-image: url(../Images/Rectangle\ 10.png);
+}
+
+/* destination section end */
+/* choose us style */
+.choose-us {
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.why-choose h3 {
+    width: 307px;
+    margin: 0 auto;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.why-choose p {
+    width: 643px;
+    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.Handpicked-service {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+}
+
+.Handpicked {
+    width: 573px;
+    height: 284px;
+    border: 2px solid green;
+}
+
+.service {
+    width: 573px;
+    height: 284px;
+    border: 2px solid green;
+}
+
+.Handpicked h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.Handpicked p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.price-guide {
+    
+    width: 573px;
+    height: 284px;
+    margin: 24px auto;
+    border: 2px solid red;
+}
+
+.price-guide h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.price-guide p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 /* style for small devices(Phone) */
@@ -165,8 +372,7 @@ body {
 
     .nav-section,
     .nav-items,
-    .tour-container
-     {
+    .tour-container {
         flex-direction: column;
         width: 100%;
     }
@@ -184,7 +390,8 @@ body {
         padding: 0;
         text-align: center;
     }
-    .tour-content-image img{
+
+    .tour-content-image img {
         position: relative;
         padding-top: 35px;
         padding-left: 75px;
