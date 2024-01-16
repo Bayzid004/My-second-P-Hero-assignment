@@ -652,6 +652,38 @@ body {
     background: url(../Images/Rectangle\ 8\ \(1\).png), lightgray 50% / cover no-repeat;
 }
 
+/* footer style */
+
+footer {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 110px;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+footer p {
+    width: 769px;
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+
+footer .footer-image img {
+    background-color: #FF5400;
+}
+
+.line {
+    width: 872px;
+    margin: 50px auto;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
 /* style for small devices(Phone) */
 
 @media screen and (max-width: 576px) {
