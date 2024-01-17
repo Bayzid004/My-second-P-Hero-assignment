@@ -774,6 +774,7 @@ footer .footer-image img {
         padding: 0;
         text-align: center;
     }
+  
 
     .tour-content-image img {
         position: relative;
@@ -786,10 +787,27 @@ footer .footer-image img {
 
     .tour-content {
         margin-left: 20px;
+        max-width: 500px;
     }
 
     .tour-container {
         padding-top: 0;
+    }
+    .tour-content h3{
+        font-size: 26px;
+    }
+    .tour-content p{
+        font-size: 14px;
+    }
+    .tour-content p{
+        font-size: 14px;
+        line-height: normal;
+    }
+    .tour-content button{
+        margin-left: 24px;
+    }
+    .tour-content-image img{
+        padding-left: 25px;
     }
 
     .destination-content h3 {
