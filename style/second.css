@@ -97,33 +97,39 @@ body {
     border-radius: 16px;
 }
 
-.banner-form-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding-top: 48px;
+.banner-container .banner-form-section {
+    max-width: 768px;
+    margin: 48px auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 20px;
+}
+
+.banner-form-section form{
     display: flex;
     justify-content: space-between;
 }
 
-.banner-form-content input {
-    color: rgba(19, 19, 24, 0.50);
-    font-size: 16px;
-    font-weight: 400;
+input[type=text],
+select {
+    width: 174px;
+    padding: 12px 20px;
+    margin: 8px 0;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 
 }
 
-.banner-form-content .bg {
-    background-color: #FFF;
-    position: relative;
-    right: 20px;
-}
-
-.banner-form-content button {
+input[type=submit] {
+    width: 174px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 0;
     border-radius: 8px;
     background: #FF5400;
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 700;
 }
 
 /* tour container */
