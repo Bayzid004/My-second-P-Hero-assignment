@@ -812,6 +812,12 @@ footer .footer-image img {
 
     .destination-content h3 {
         padding-top: 30px;
+        font-size: 20px;
+    }
+    .destination-content p{
+        font-size: 14px;
+        max-width: 500px;
+        line-height: normal;
     }
 
     .image-first-row {
@@ -819,19 +825,32 @@ footer .footer-image img {
         margin-left: 20px;
         margin-right: 20px;
     }
+    .image-first-row h4{
+        max-width: 450px;
+        border-radius: 8px;
+    }
 
     .image-second-row #srilanka {
-        margin-left: 100px;
+        margin-left: 25px;
+        
     }
 
     .image-second-row #America {
-        margin-left: 50px;
+        margin-left: 25px;
 
     }
 
     .image-second-row #Kashmir {
-        margin-left: 140px;
+        margin-left: 75px;
 
+    }
+    .image-third-row #Bangladesh{
+        max-width: 450px;
+        border-radius: 8px;
+    }
+    .image-third-row #Bandarban{
+        max-width: 450px;
+        border-radius: 8px;
     }
 
     .image-third-row {
