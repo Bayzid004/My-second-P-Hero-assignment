@@ -105,7 +105,7 @@ body {
     padding: 20px;
 }
 
-.banner-form-section form{
+.banner-form-section form {
     display: flex;
     justify-content: space-between;
 }
@@ -682,7 +682,7 @@ input[type=submit] {
     text-align: center;
     font-size: 32px;
     font-weight: 800;
-   
+
 }
 
 /* footer style */
@@ -720,6 +720,7 @@ footer .footer-image img {
 /* style for small devices(Phone) */
 
 @media screen and (max-width: 576px) {
+
     .nav-section,
     .nav-items,
     .tour-container,
@@ -728,8 +729,35 @@ footer .footer-image img {
     .image-third-row,
     .Handpicked-service,
     .perfect-place,
-    .form-section {
+    .form-section,
+    form {
         flex-direction: column;
+        width: 100%;
+    }
+
+    .banner-content h1 {
+        font-size: 36px;
+    }
+
+    .banner-container p {
+        max-width: 540px;
+    }
+
+    .banner-container .banner-form-section {
+        margin: 32px auto;
+    }
+
+    .banner-container .banner-form-section {
+        display: flex;
+        width: 287px;
+        padding: 16px;
+        text-align: center;
+        align-items: flex-start;
+        gap: 16px;
+        align-items: center;
+    }
+    input[type=text], select,
+    input[type=submit]{
         width: 100%;
     }
 
@@ -812,10 +840,12 @@ footer .footer-image img {
     .price-guide-deals3 .location3 {
         position: static;
     }
-    .form-content{
+
+    .form-content {
         margin-left: 25px;
     }
-    footer p{
+
+    footer p {
         width: 400px;
     }
 
