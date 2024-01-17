@@ -854,32 +854,115 @@ footer .footer-image img {
     }
 
     .image-third-row {
-        margin-left: 50px;
+        margin-left: 25px;
     }
+    .why-choose h3{
+        font-size: 20px;
+    }
+    .why-choose p{
+        max-width: 500px;
+        font-size: 12px;
+        line-height: normal;
+        padding-top: 15px;
+    }
+
+   
 
     .Handpicked-service {
         padding-top: 20px;
         margin-left: 25px;
     }
+    .Handpicked{
+        width: 500px;
+        text-align: center;
+    }
+    .Handpicked h3{
+        font-size: 20px;
+    }
+    .Handpicked p{
+        font-size: 14px;
+    }
+    .service{
+        width: 500px;
+        text-align: center;
+    }
+    .service p{
+        font-size: 14px;
+    }
 
     .price-guide {
         margin-left: 25px;
+        width: 500px;
+        text-align: center;
+    }
+    .price-guide h3{
+        font-size: 20px;
+    }
+    .price-guide p{
+        font-size: 14px;
+    }
+    .Discount h1{
+        font-size: 20px;
+    }
+    .Discount p{
+        width: 500px;
+    }
+
+    .price-guide-deals1{
+        max-width: 500px;
+    }
+    .price-guide-deals2{
+        max-width: 500px;
+    }
+    .price-guide-deals3{
+        max-width: 500px;
     }
 
     .price-guide-deals1 .location1 {
-        position: static;
+        max-width: 400px;
+        left: 60px;
+    }
+
+    .deals-title{
+        font-size: 20px;
+    }
+    .deals-description{
+        max-width: 270px;
+        font-size: 14px;
     }
 
     .price-guide-deals2 .location2 {
-        position: static;
+        max-width: 400px;
+        left: 60px;
     }
 
     .price-guide-deals3 .location3 {
-        position: static;
+        max-width: 400px;
+        left: 60px;
+    }
+
+    .place-content{
+        width: 500px;
+        margin-left: 25px;
+    }
+    .place-content h2{
+        font-size: 20px;
+    }
+    .place-content p{
+        font-size: 14px;
+    }
+    ul{
+        font-size: 14px;
+    }
+    .place-image{
+        width: 500px;
+        margin-left: 25px;
+        border-radius: 8px;
     }
 
     .form-content {
         margin-left: 25px;
+        
     }
 
     footer p {
